@@ -1,0 +1,196 @@
+html {
+    font-size: .9rem;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    /* width: 90%;  */
+    padding: 0 2em;
+}
+
+h1, 
+h2 {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    margin-top: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    /* 2.625 x 16 = 42 */
+    /* 20 / 42 */
+    padding: .5em 0;
+    margin-bottom: .5em;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 2.25rem;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.artical-info {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+strong {
+    font-weight: 900;
+    color: #99d930;
+    display: block;
+}
+
+h1 strong {
+  font-size: 5rem;
+}
+
+h2 strong {
+    font-size: 3.75rem;
+    margin: 0;
+}
+
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
+}
+
+a {
+    color: #99d930;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    color: #252525;
+    background: #99d930;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 1.875em;
+    padding: .625em 1.5625em;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #252525;
+    background: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #fff;
+    background: #252525;
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+header,
+section {
+    padding: 6.25em 0;
+}
+
+header, .articles {
+    background: #252525;
+    color: #fff;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 1.325rem;
+    }
+}
+
+@media (min-width: 750px) {
+    .split {
+        display: flex;
+        align-items: center;
+    } 
+
+    .articles {
+        background-color: #99d930;
+        color: #252525;
+    }
+
+    .articles strong,
+    .articles .name,
+    .articles time,
+    .articles a {
+        color: currentColor; /* parent's color */
+    }
+
+    .articles a:hover,
+    .articles a:focus {
+        color: #fff;
+    }
+    
+    .articles .btn {
+        background-color: #252525;
+        color: #fff;
+    }
+
+    .articles .btn:hover,
+    .articles .btn:focus {
+        background-color: #fff;
+        color: #252525;
+    }
+
+    .articles h2 {    
+        border-color: currentColor;
+    }
+
+    .portfolio {
+        background-color: #252525;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .portfolio.container {
+        max-width: 1200px;
+    }
+
+    .work {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio-item {
+        width: 28%;
+    }
+
+    .portfolio img {
+        width: 100%;
+        height: 15em;
+        object-fit: cover;
+    }
+}
