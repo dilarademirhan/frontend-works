@@ -4,7 +4,7 @@
 
 ### Responsive Design
 
-- [Little More Fancy](https://dilarademirhan.github.io/frontend-works/fancy)  
+- [Little More Fancy](https://dilarademirhan.github.io/frontend-works/little-more-fancy)  
 
 - [Living The Social Life](https://dilarademirhan.github.io/frontend-works/living-the-social-life)  
 
