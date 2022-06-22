@@ -4,9 +4,9 @@
 
 ### Responsive Design
 
-- [Starting to think responsively](https://dilarademirhan.github.io/frontend-works/fancy)  
+- [Little More Fancy](https://dilarademirhan.github.io/frontend-works/fancy)  
 
-- [Living the social life](https://dilarademirhan.github.io/frontend-works/living-the-social-life)  
+- [Living The Social Life](https://dilarademirhan.github.io/frontend-works/living-the-social-life)  
 
 - [BBQ Splash Page](https://dilarademirhan.github.io/frontend-works/bbq-splash-page)  
 
